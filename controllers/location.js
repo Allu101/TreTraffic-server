@@ -21,6 +21,7 @@ export default {
       filtered.forEach((locationObj) => {
         if (locationObj.geometry !== null) {
           let tempObject = {};
+          tempObject['id'] = locationObj.properties.id;
           tempObject['liva_nro'] = locationObj.properties.liva_nro;
 
           tempObject['location'] = {};
