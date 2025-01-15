@@ -1,0 +1,34 @@
+{
+	"605": {
+		"1": {
+			"name": "Teiskontie",
+			"lights": ["H;0", "H;J"]
+		},
+		"2": {
+			"name": "Ali-Huikkaantie",
+			"lights": ["F;2", "G;0"]
+		}
+	},
+	"606": {
+		"1": {
+			"name": "Teiskontie",
+			"lights": ["K;0", "L;0"]
+		},
+		"2": {
+			"name": "Jaakonmäenkatu",
+			"lights": ["H;0", "J;0"]
+		}
+	},
+	"607": {
+		"1": {
+			"name": "Irjalankatu",
+			"lights": ["H;0", "J;0"]
+		}
+	},
+	"609": {
+		"1": {
+			"name": "Lidl",
+			"lights": ["E;0"]
+		}
+	}
+}

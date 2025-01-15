@@ -1,0 +1,101 @@
+{
+	"605": {
+		"1": {
+			"name": "Teiskontie itään",
+			"displayname": "Ali-Huikkaantie",
+			"lights": ["A;2", "D;3"]
+		},
+		"2": {
+			"name": "Teiskontie länteen",
+			"displayname": "Ali-Huikkaantie",
+			"lights": ["C;1", "B;2"]
+		},
+		"3": {
+			"name": "Ali-Huikkaantie",
+			"lights": ["E;2"]
+		}
+	},
+	"606": {
+		"1": {
+			"name": "Teiskontie itään",
+			"displayname": "Tenniskeskus",
+			"lights": ["C;1", "A;2"]
+		},
+		"2": {
+			"name": "Teiskontie länteen",
+			"displayname": "Tenniskeskus",
+			"lights": ["D;1", "B;2"]
+		},
+		"3": {
+			"name": "Jaakonmäenkatu",
+			"displayname": "Teiskontie",
+			"lights": ["E;2", "F;3"]
+		},
+		"4": {
+			"name": "Toimelantie",
+			"displayname": "Teiskontie",
+			"lights": ["G;2"]
+		}
+	},
+	"607": {
+		"1": {
+			"name": "Teiskontie itään",
+			"displayname": "Irjalankatu",
+			"lights": ["A;2", "D;3"]
+		},
+		"2": {
+			"name": "Teiskontie länteen",
+			"displayname": "Irjalankatu",
+			"lights": ["C;1", "B;2"]
+		},
+		"3": {
+			"name": "Irjalankatu",
+			"displayname": "Teiskontie",
+			"lights": ["F;1", "E;3"]
+		},
+		"4": {
+			"name": "ST1",
+			"displayname": "Teiskontie",
+			"lights": ["G;3"]
+		}
+	},
+	"608": {
+		"1": {
+			"name": "Teiskontie itään",
+			"displayname": "Heikkilänkatu/Niihamankatu",
+			"lights": ["C;1", "A;2", "E;3"]
+		},
+		"2": {
+			"name": "Teiskontie länteen",
+			"displayname": "Heikkilänkatu/Niihamankatu",
+			"lights": ["D;1", "B;2"]
+		},
+		"3": {
+			"name": "Heikkilänkatu",
+			"displayname": "Teiskontie",
+			"lights": ["F;2"]
+		},
+		"4": {
+			"name": "Niihamankatu",
+			"displayname": "Teiskontie",
+			"lights": ["G;2"]
+		}
+	},
+	"609": {
+		"1": {
+			"name": "Heikkilänkatu itään",
+			"displayname": "Lidl",
+			"lights": ["A;2"]
+		},
+		"2": {
+			"name": "Heikkilänkatu länteen",
+			"displayname": "Lidl",
+			"lights": ["C;1", "B;2"]
+		},
+		"3": {
+			"name": "Lidl",
+			"displayname": "Heikkilänkatu",
+			"lights": ["D;2"]
+		}
+	}
+}
