@@ -1,11 +1,14 @@
+import intersectionRepo from "../repositories/intersection.js";
 
 export default {
-  getUserData: async (req, res) => {
+  getIntersectionData: async (req, res) => {
     try {
-      const userData = await userRepo.getUserData(req.params);
-      res.status(201).json(userData);
+      const data = await intersectionRepo.getIntersectionData(req.params);
+
+      res.status(201).json(data);
     } catch (error) {
-      respond.withError(res, error);
+      console.log('error', error);
+      res.status(404).json(error.message);
     }
   },
 
@@ -14,7 +17,7 @@ export default {
       const userData = await userRepo.getAllUsersData();
       res.status(201).json(userData);
     } catch (error) {
-      respond.withError(res, error);
+      res.status(404).json(error.message);
     }
   },
 }

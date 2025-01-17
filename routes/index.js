@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import intersectionsRouter from './intersections.js';
+import intersectionsRouter from './intersection.js';
 import locationsRouter from './locations.js';
 
 const routes = Router();
