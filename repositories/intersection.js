@@ -1,5 +1,5 @@
 import axios from "axios";
-import { promises as fs } from "fs";
+import { getCarsLightGroups } from "../db/db.js";
 
 export default {
   getIntersectionData: async (params) => {
@@ -12,9 +12,12 @@ export default {
     );
     const signalGroupData = response.data.signalGroup;
 
-    const lightGroupsData = await fs.readFile('db/cars_lightGroups.json', 'utf-8', 'binary');
-    const jsonData = JSON.parse(lightGroupsData); 
-    const lightgroups = jsonData[params.liva_nro];
+    const lightGroupsJson = getCarsLightGroups();
+    const lightgroups = lightGroupsJson[params.liva_nro];
+
+    if (!lightgroups) {
+      return [];
+    }
 
     const result = [];
     for (const [key, value] of Object.entries(lightgroups)) {
