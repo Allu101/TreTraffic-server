@@ -19,7 +19,7 @@ app.get('/status', (req, res) => {
 
 app.use('/api', routes);
 
-initData();
+await initData();
 
 app.listen(PORT, () => {
   console.log(`Backend is listening on PORT ${PORT}`);

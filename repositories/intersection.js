@@ -3,6 +3,10 @@ import { getCarsLightGroups } from "../db/db.js";
 
 export default {
   getIntersectionData: async (params) => {
+    if (params.liva_nro === undefined) {
+      return [];
+    }
+
     const response = await axios.get(
       process.env.INTERSECTIONS_URL + '/tre' + params.liva_nro, {
         headers: {
