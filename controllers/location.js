@@ -1,12 +1,13 @@
 import axios from "axios";
+import { getRoutes } from "../db/db.js";
 
 export default {
-  getUserData: async (req, res) => {
+  getAllRouteLocations: async (req, res) => {
     try {
-      //const userData = await userRepo.getUserData(req.params);
-      //res.status(201).json(userData);
+      const routesData = getRoutes();
+      res.status(201).json(routesData);
     } catch (error) {
-      //respond.withError(res, error);
+      res.status(404).json(error.message);
     }
   },
 

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Heikkilänkatu",
+    "triggers": {
+      "1": {
+        "min": 185,
+        "max": 5,
+        "lightGroups": [
+          "609:1",
+          "608:1",
+          "607:1"
+        ]
+      }
+    },
+    "location": [
+      {
+        "latitude": 61.49696,
+        "longitude": 23.88335
+      },
+      {
+        "latitude": 61.49670,
+        "longitude": 23.88326
+      }
+    ]
+  }
+]
