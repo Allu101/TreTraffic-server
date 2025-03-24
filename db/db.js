@@ -25,7 +25,7 @@ export function getPedestrianLightGroups() {
   return pedestrianLightGroupsJson;
 }
 
-export function getRoutes() {
+export function getTriggerLinesData() {
   return routesJson;
 }
 
