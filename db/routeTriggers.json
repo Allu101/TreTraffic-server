@@ -32,9 +32,7 @@
         "direction": 90,
         "directionRange": 60,
         "lightGroups": [
-          "608:1",
-          "608:2",
-          "608:3"
+          "608:1;2;3"
         ]
       }
     },

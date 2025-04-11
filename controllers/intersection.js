@@ -7,15 +7,15 @@ export default {
 
       res.status(201).json(data);
     } catch (error) {
-      console.log('error', error);
+      console.log('error in intersection controller');
       res.status(404).json(error.message);
     }
   },
 
-  getAllUsersData: async (req, res) => {
+  getLightGroupsData: async (req, res) => {
     try {
-      const userData = await userRepo.getAllUsersData();
-      res.status(201).json(userData);
+      const data = await intersectionRepo.getLightGroupsData(req.params);
+      res.status(201).json(data);
     } catch (error) {
       res.status(404).json(error.message);
     }
