@@ -31,12 +31,12 @@ export function getTriggerLinesData() {
 
 async function initFiles() {
   const carsData =
-      await fs.readFile('./db/cars_lightGroups.json', 'utf-8', 'binary');
+      await fs.readFile('./db/carsLightGroups.json', 'utf-8', 'binary');
   const jsonData = JSON.parse(carsData);
   carsLightGroupsJson = jsonData;
 
   const pedestrianData =
-      await fs.readFile('./db/pedestrians_lightGroups.json', 'utf-8', 'binary');
+      await fs.readFile('./db/pedestriansLightGroups.json', 'utf-8', 'binary');
   const pedestrianJsonData = JSON.parse(pedestrianData);
   pedestrianLightGroupsJson = pedestrianJsonData;
 
